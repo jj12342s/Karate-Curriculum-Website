@@ -1,0 +1,29 @@
+p{
+    
+}
+
+body {
+    background: #303030;
+}
+h1{
+    color: white;
+    font-family: sans-serif bold ;
+    font-size: 50px;
+}
+
+.col-3{
+    
+}
+
+.procedure-description{
+    /* background-color: #EB212E;
+    color: white;  
+    font-size: 20px;
+    font-family: sans-serif; */
+    
+}
+
+h3.procedure-header{
+    text-align: center;
+    color: white;
+}
