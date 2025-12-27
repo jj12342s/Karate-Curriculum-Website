@@ -1,0 +1,35 @@
+
+
+
+.col-3{
+    padding: auto;
+}
+.col-md-2{
+    outline: black solid 1px;
+}
+
+.container{
+    
+    
+}
+h1{
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+procedure-description{
+ text-align: center;   
+}
+.demonstration-media{
+    width:1000px;
+}
+
+
+
+.demonstration-media{
+    width: 500px;
+    
+} 
+.card{
+    
+}

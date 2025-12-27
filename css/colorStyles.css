@@ -1,0 +1,53 @@
+
+
+:root {
+  /* Base Backgrounds */
+  --bs-body-bg: #ffffff;    /* White background */
+  --bs-light: #f8f9fa;       /* Light surfaces */
+
+  /* Text Colors */
+  --bs-body-color: #111111;  /* Primary text */
+  --bs-dark: #000000;        /* Strong dark text */
+
+  /* Primary / Brand */
+  --bs-primary: #c82333;     /* Strong red accent for buttons */
+  --bs-danger:  #dc3545;     /* Red used for emphasis */
+
+  /* Secondary / Muted */
+  --bs-secondary: #6c757d;   /* Neutral gray */
+  --bs-muted: #6c757d;       /* Muted text */
+}
+
+
+p{
+    
+}
+
+body {
+    background-color: var(--bs-body-bg);
+}
+h1{
+    color: var(--bs-primary);
+    font-family: sans-serif bold ;
+    font-size: 50px;
+}
+
+.col-3{
+    
+}
+.card-header{
+    color: var(--bs-body-color);
+}
+.procedure-description{
+    background-color: var(--bs-light);
+    color: var(--bs-body-color);  
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+h5.procedure-header{
+    text-align: center;
+    color: var(--bs-primary);
+}
+
