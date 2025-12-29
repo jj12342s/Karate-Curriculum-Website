@@ -19,7 +19,8 @@
     "type": [
             "_warmup",
             "_singleTechnique",
-            "_combination"
+            "_combination",
+            "_game"
         ]
     },
     "cross": {
