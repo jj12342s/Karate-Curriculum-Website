@@ -1,0 +1,70 @@
+{
+    "preset": {
+        "isActive": false,
+        "name": "",
+        "videoURL": "",
+        "gifPath": null,
+        "description": "",
+        "procedure": [],
+        "theme": [
+            "_footwork",
+            "_boxing",
+            "_kickboxing",
+            "_kicking",
+            "_defense",
+            "_conditioning",
+            "_grappling"
+        ],
+        
+    "type": [
+            "_warmup",
+            "_singleTechnique",
+            "_combination"
+        ]
+    },
+    "cross": {
+        "isActive": true,
+        "name": "Cross",
+        "videoURL": "images/cross.jpg",
+        "gifPath": null,
+        "description": "The cross is a powerful straight punch thrown with your back hand, typically following a jab. It travels directly across the body, aiming to pierce the opponent’s guard with speed and force. Often used as a finishing strike in combos.",
+        "procedure": [
+            "Starting Stance: Maintain a balanced boxing stance with your hands up to protect your chin, elbows tucked.",
+            "Footwork & Rotation: Push off your back foot, pivoting on the ball of that foot (heel lifts).",
+            "Hip & Shoulder Turn: Rotate your hips and shoulders powerfully towards the target, transferring weight to your front foot.",
+            "Snap back to guard"
+        ],
+        "theme": ["boxing"],
+        "type": ["singleTechnique"]
+    },
+    "jab": {
+        "isActive": true,
+        "name": "Jab",
+        "videoURL": "",
+        "gifPath": null,
+        "description": "",
+        "procedure": ""
+
+    },
+    "white belt workout #2": {
+        "isActive": true,
+        "name": "White Belt Workout #2",
+        "videoURL": "",
+        "gifPath": null,
+        "description": "",
+        "procedure": ["jab", "cross", ["jab", "cross"], "drop", "cross", "leadFrontKick", "rearFrontKick"],
+        "theme": ["kickboxing"],
+        "type": ["combination"]
+    },
+    "jumpingJacks": {
+        "isActive": true,
+        "name": "Jumping Jacks",
+        "videoURL": "",
+        "gifPath": null,
+        "description": "",
+        "procedure": "",
+        "theme": ["conditioning"],
+        "type": ["warmup"]   
+    }
+    
+}
