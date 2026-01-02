@@ -1,4 +1,5 @@
 {
+
     "preset": {
         "isActive": false,
         "name": "",
@@ -26,8 +27,8 @@
     "cross": {
         "isActive": true,
         "name": "Cross",
-        "videoURL": "images/cross.jpg",
-        "gifPath": null,
+        "videoURL": "assets/media/crossing.gif",
+        "gifPath": "assets/media/crossing.gif",
         "description": "The cross is a powerful straight punch thrown with your back hand, typically following a jab. It travels directly across the body, aiming to pierce the opponent’s guard with speed and force. Often used as a finishing strike in combos.",
         "procedure": [
             "Starting Stance: Maintain a balanced boxing stance with your hands up to protect your chin, elbows tucked.",
@@ -44,10 +45,10 @@
         "videoURL": "",
         "gifPath": null,
         "description": "",
-        "procedure": ""
+        "procedure": []
 
     },
-    "white belt workout #2": {
+    "whitebeltworkout2": {
         "isActive": true,
         "name": "White Belt Workout #2",
         "videoURL": "",
@@ -63,7 +64,7 @@
         "videoURL": "",
         "gifPath": null,
         "description": "",
-        "procedure": "",
+        "procedure": ["Start standing upright with your legs together and arms at your sides.", "Jump while spreading your legs shoulder-width apart and raising your arms above your head.", "Jump again to return to the starting position."],
         "theme": ["conditioning"],
         "type": ["warmup"]   
     }
