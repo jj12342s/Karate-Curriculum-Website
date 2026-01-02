@@ -7,7 +7,7 @@ fetch("/assets/data/techniques.json")
     const id = params.get("id");
     
     const technique = data[id];
-    console.log(technique)
+    console.log("eufwb0")
 
     if (!technique) {
       console.error("Technique not found:", id);
@@ -27,7 +27,7 @@ function displayAll(technique){
 }
 function displayImage(technique) {
   const img = document.querySelector("#demonstration-media");
-  img.src = technique.videoURL;
+  img.src = technique.videoURL || technique.gifPath;
   
 }
 function displayDescription(technique) {

@@ -1,35 +1,11 @@
 {
-
-    "preset": {
-        "isActive": false,
-        "name": "",
-        "videoURL": "",
-        "gifPath": null,
-        "description": "",
-        "procedure": [],
-        "theme": [
-            "_footwork",
-            "_boxing",
-            "_kickboxing",
-            "_kicking",
-            "_defense",
-            "_conditioning",
-            "_grappling"
-        ],
-        
-    "type": [
-            "_warmup",
-            "_singleTechnique",
-            "_combination",
-            "_game"
-        ]
-    },
     "cross": {
+        "id": "cross",
         "isActive": true,
         "name": "Cross",
-        "videoURL": "assets/media/crossing.gif",
-        "gifPath": "assets/media/crossing.gif",
-        "description": "The cross is a powerful straight punch thrown with your back hand, typically following a jab. It travels directly across the body, aiming to pierce the opponent’s guard with speed and force. Often used as a finishing strike in combos.",
+        "videoURL": "/assets/media/crossing.gif",
+        "gifPath": "/assets/media/crossing.gif",
+        "description": "The cross is a powerful straight punch thrown with your back hand, typically following a jab. It travels directly across the body, aiming to pierce the opponent's guard with speed and force. Often used as a finishing strike in combos.",
         "procedure": [
             "Starting Stance: Maintain a balanced boxing stance with your hands up to protect your chin, elbows tucked.",
             "Footwork & Rotation: Push off your back foot, pivoting on the ball of that foot (heel lifts).",
@@ -40,33 +16,135 @@
         "type": ["singleTechnique"]
     },
     "jab": {
+        "id": "jab",
         "isActive": true,
         "name": "Jab",
         "videoURL": "",
         "gifPath": null,
-        "description": "",
-        "procedure": []
-
+        "description": "The jab is a quick straight punch thrown with your front hand. It's used to set up combinations, control distance, and disrupt the opponent's rhythm. Fast, snappy, and fundamental to boxing.",
+        "procedure": [
+            "Starting Stance: Maintain a balanced boxing stance with hands up protecting your chin.",
+            "Arm Extension: Extend your front arm straight forward with a quick snap.",
+            "Hip Rotation: Rotate your hips slightly to generate power through your core.",
+            "Snap back to guard immediately"
+        ]
     },
     "whitebeltworkout2": {
+        "id": "whitebeltworkout2",
         "isActive": true,
         "name": "White Belt Workout #2",
         "videoURL": "",
         "gifPath": null,
-        "description": "",
-        "procedure": ["jab", "cross", ["jab", "cross"], "drop", "cross", "leadFrontKick", "rearFrontKick"],
+        "description": "A fundamental combination workout for white belt students, integrating basic punching and kicking techniques to build foundational skills and coordination.",
+        "procedure": [
+            "jab",
+            "cross",
+            ["jab", "cross"],
+            "drop",
+            "cross",
+            "leadFrontKick",
+            "rearFrontKick"
+        ],
         "theme": ["kickboxing"],
         "type": ["combination"]
     },
     "jumpingJacks": {
+        "id": "jumpingJacks",
         "isActive": true,
         "name": "Jumping Jacks",
         "videoURL": "",
         "gifPath": null,
-        "description": "",
-        "procedure": ["Start standing upright with your legs together and arms at your sides.", "Jump while spreading your legs shoulder-width apart and raising your arms above your head.", "Jump again to return to the starting position."],
+        "description": "Jumping jacks are a full-body conditioning exercise that increases heart rate and improves coordination. Essential warm-up movement for building cardiovascular endurance.",
+        "procedure": [
+            "Start standing upright with your legs together and arms at your sides.",
+            "Jump while spreading your legs shoulder-width apart and raising your arms above your head.",
+            "Jump again to return to the starting position."
+        ],
         "theme": ["conditioning"],
-        "type": ["warmup"]   
+        "type": ["warmup"]
+    },
+    "cartwheelKick": {
+        "id": "cartwheelKick",
+        "isActive": true,
+        "name": "Cartwheel Kick",
+        "videoURL": "",
+        "gifPath": "/assets/media/Cartwheel kick.webp",
+        "description": "The cartwheel kick is an advanced spinning kick that combines acrobatic movement with a powerful strike. It uses momentum and height to deliver force while maintaining balance and control.",
+        "procedure": [
+            "Starting Position: Stand in fighting stance, facing your target.",
+            "Hand Plant: Place your hands on the ground while rotating your body sideways.",
+            "Weight Transfer: Shift weight through your hands as you cartwheel.",
+            "Leg Extension: Drive your back leg up and forward to strike the target as you complete the rotation.",
+            "Landing: Return to fighting stance with control"
+        ],
+        "theme": ["kicking"],
+        "type": ["singleTechnique"]
+    },
+    "kneeStrike": {
+        "id": "kneeStrike",
+        "isActive": true,
+        "name": "Knee Strike",
+        "videoURL": "",
+        "gifPath": "/assets/media/Knee Strike.gif",
+        "description": "The knee strike is a close-range powerful technique using the knee to strike the opponent's midsection, head, or legs. Effective in clinch situations and devastating when executed with proper hip drive.",
+        "procedure": [
+            "Clinch Position: Move into close range and control your opponent's posture.",
+            "Hip Drive: Thrust your hips forward powerfully toward the target.",
+            "Knee Lift: Raise your knee explosively, driving it straight into the target.",
+            "Chamber Back: Return your knee to starting position while maintaining clinch control"
+        ],
+        "theme": ["kicking"],
+        "type": ["singleTechnique"]
+    },
+    "roundKick": {
+        "id": "roundKick",
+        "isActive": true,
+        "name": "Round Kick",
+        "videoURL": "",
+        "gifPath": "/assets/media/Round kick.gif",
+        "description": "The round kick is a sweeping circular kick that generates power through hip rotation and leg flexibility. It's one of the most versatile kicks, effective against multiple targets and angles.",
+        "procedure": [
+            "Starting Stance: Stand in fighting stance with hands protecting face.",
+            "Chamber: Lift your knee up and rotate your hips toward the target.",
+            "Leg Extension: Extend your leg in a circular arc, striking with your shin or instep.",
+            "Follow Through: Complete the rotation and return to guard position"
+        ],
+        "theme": ["kicking"],
+        "type": ["singleTechnique"]
+    },
+    "spinningBackKick": {
+        "id": "spinningBackKick",
+        "isActive": true,
+        "name": "Spinning Back kick",
+        "videoURL": "",
+        "gifPath": "/assets/media/spinning back kick.gif",
+        "description": "The spinning back kick is a powerful rear-facing kick that uses 180-degree rotation to generate tremendous force. It's one of the most devastating strikes in kickboxing when timed correctly.",
+        "procedure": [
+            "Starting Stance: Begin in fighting stance facing your opponent.",
+            "Head Check: Look over your shoulder while rotating your hips and body.",
+            "Push-Off: Pivot on your front foot, rotating 180 degrees explosively.",
+            "Leg Drive: Extend your back leg straight backward, striking with your heel.",
+            "Return: Rotate back to guard position with hands up"
+        ],
+        "theme": ["kicking"],
+        "type": ["singleTechnique"]
+    },
+    "spinningHookKick": {
+        "id": "spinningHookKick",
+        "isActive": true,
+        "name": "Spinning Hook Kick",
+        "videoURL": "",
+        "gifPath": "/assets/media/spinning hook kick.gif",
+        "description": "The spinning hook kick is a rotational kick that curves around the opponent's guard. The spinning momentum combined with the hooking arc makes it difficult to defend and highly effective.",
+        "procedure": [
+            "Starting Stance: Stand in fighting stance with hands protecting.",
+            "Initiate Spin: Pivot on your front foot, beginning to rotate away from opponent.",
+            "Check Over Shoulder: Look back at target while rotating hips and upper body.",
+            "Leg Chamber: Lift your rear leg knee up as you complete the rotation.",
+            "Hook Strike: Extend leg in a curved hook motion, striking with shin or instep.",
+            "Return to Guard: Complete rotation back to fighting stance"
+        ],
+        "theme": ["kicking"],
+        "type": ["singleTechnique"]
     }
-    
 }

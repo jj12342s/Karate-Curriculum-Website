@@ -8,26 +8,42 @@ fetch("/assets/data/techniques.json")
 
     
 
-    if (!technique) {
+    if (!techniques) {
       console.error("Technique not found:", id);
-      document.
       return;
     }
 
+    
     addCards(techniques)
   })
   .catch(err => console.error("Error loading JSON:", err));
 
-  function addCards(techniques){
-    for (i in techniques){
-        addCard(i);
-    } 
-  }
+    function addCards(techniques){
+    const techniqueContainerElement = document.getElementById("technique-container")
 
-  function addCard(technique){
     
+    for (const technique of techniques){
+        console.log("test")
+        if (technique.name === ""){
+        continue;
+        }
+        techniqueContainerElement.appendChild(createCard(technique))
+    } 
+    }
+
+  function createCard(technique){
+    const card = document.createElement("div");
+    card.class = "card"
+    card.style="width: 30rem"
+    card.innerHTML=`
+        <img src="${technique.gifPath}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="button" href= "/pages/technique.html?id=${technique.id}" class="btn btn-primary justify-content-center">${technique.name}</a>
+                </div>
+        `
+    return card;
   }
 
   function filterTechniques(data){
-    return data
+    return Object.values(data).filter(technique => technique.isActive === true);
   }
