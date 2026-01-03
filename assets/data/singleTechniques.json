@@ -12,8 +12,8 @@
             "Hip & Shoulder Turn: Rotate your hips and shoulders powerfully towards the target, transferring weight to your front foot.",
             "Snap back to guard"
         ],
-        "theme": ["boxing"],
-        "type": ["singleTechnique"]
+        "theme": ["boxing"]
+        
     },
     "jab": {
         "id": "jab",

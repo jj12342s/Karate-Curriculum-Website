@@ -1,4 +1,4 @@
-fetch("/assets/data/techniques.json")
+fetch("/assets/data/singleTechniques.json")
   .then(response => response.json())
   .then(data => {
     console.log(data);
@@ -7,7 +7,6 @@ fetch("/assets/data/techniques.json")
     const id = params.get("id");
     
     const technique = data[id];
-    console.log("eufwb0")
 
     if (!technique) {
       console.error("Technique not found:", id);
@@ -20,14 +19,14 @@ fetch("/assets/data/techniques.json")
   .catch(err => console.error("Error loading JSON:", err));
 
 function displayAll(technique){
-  displayImage(technique);
-  displayProcedure(technique);
   displayTitle(technique);
   displayDescription(technique);
+  displayProcedure(technique);
+  displayImage(technique);
 }
 function displayImage(technique) {
   const img = document.querySelector("#demonstration-media");
-  img.src = technique.videoURL || technique.gifPath;
+  img.src = technique.videoURL || technique.gifPath || "/assets/media/PlaceHolderImage.png";
   
 }
 function displayDescription(technique) {
@@ -41,7 +40,9 @@ function displayTitle(technique){
   titleElement.textContent = (technique.name);
 }
 function displayProcedure(technique){
-  const procedureList = document.querySelector("#procedure-group");
+  const procedureHeader = document.getElementById("procedure-header");
+  procedureHeader.textContent = String(technique.name) + " Procedure";
+  const procedureList = document.getElementById("procedure-group");
   if (!procedureList || !Array.isArray(technique.procedure)) return;
 
   procedureList.innerHTML = ""; // clear existing items
